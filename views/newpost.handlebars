@@ -1,0 +1,27 @@
+<div id="title-background">
+  <div id="title">
+    <h1>New Post</h1>
+  </div>
+</div>
+
+<form id="newpost-form">
+  <div class="card">
+    <div class="card-divider">
+      New Post
+    </div>
+    <div class="card-section">
+      <input type="text" name="title" id="post-title" placeholder="Post Title">
+      <textarea type="body" name="body" id="post-body" placeholder="Content"></textarea>
+      <button class="submit success button">Post</button>
+      {{!-- cloudinary --}}
+      {{!-- <button class="submit success button" id="img-preview"> + IMG </button>
+      <label class="file-upload-container" for="file-upload">
+        <input id="file-upload" type="file" style="display:none;">
+        Add an Image
+      </label> --}}
+      {{!-- couldinary --}}
+    </div>
+  </div>
+</form>
+
+<script src="./js/newpost.js" defer></script>
